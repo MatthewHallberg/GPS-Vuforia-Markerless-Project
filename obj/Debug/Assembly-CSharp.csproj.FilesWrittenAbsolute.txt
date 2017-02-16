@@ -1,0 +1,48 @@
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/UnityEngine.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/UnityEditor.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/Vuforia.UnityExtensions.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/Mono.Cecil.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/Unity.DataContract.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/matthew/Desktop/markerlessVuforia/obj/Debug/Assembly-CSharp.dll
+/Users/matthew/Desktop/markerlessVuforia/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/matthew/Desktop/markerlessVuforia/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/matthew/Desktop/markerlessVuforia copy/obj/Debug/Assembly-CSharp.dll
+/Users/matthew/Desktop/markerlessVuforia copy/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/UnityEngine.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/UnityEditor.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/Vuforia.UnityExtensions.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/Mono.Cecil.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/Unity.DataContract.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/matthew/Desktop/markerlessVuforia copy/Temp/bin/Debug/Mono.Cecil.Mdb.dll

@@ -1,0 +1,67 @@
+newmtl default
+d 1
+Ns 1
+Ni 0
+Ka 0.501961 1 0
+Kd 1 0.501961 0
+Ks 1 1 1
+Km 0
+
+newmtl default_propulsion
+d 1
+Ns 1
+Ni 0
+Ka 0 1 1
+Kd 0 1 1
+Ks 1 1 1
+Km 0
+
+newmtl default_windows
+d 0.8
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 0 0 0
+Ks 1 1 1
+Km 0
+
+newmtl default_saucer
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+Km 0
+map_Kd /Maps/axq1.jpg
+
+newmtl default_interiors
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+Km 0
+map_Kd /Maps/ddt_03_01_01_01_01_01_01_01.jpg
+
+newmtl default_levels_cushions
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+Km 0
+map_Kd /Maps/yx1_02_01_01.jpg
+
+newmtl default_display_mult
+d 1
+Ns 1
+Ni 0
+Ka 1 1 1
+Kd 1 1 1
+Ks 1 1 1
+Km 0
+map_Kd /Maps/CockpitHUD.jpg
+

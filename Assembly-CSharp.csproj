@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{CA561055-E46A-8D29-17F1-6C023B9753D6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_RUNTIME_GI;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_UNITYWEBREQUEST;ENABLE_VIDEO;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;PLATFORM_HAS_NO_SUPPORT_FOR_BUCKET_ALLOCATOR;STRICTCPP_NEW_DELETE_SIGNATURES;HAS_NEON_SKINNIG;UNITY_GFX_USE_PLATFORM_VSYNC;UNITY_INPUT_SIMULATE_EVENTS;PLATFORM_ALWAYS_USES_STDOUT_FOR_LOG;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;UNITY_IPHONE;UNITY_IPHONE_API;SUPPORT_MULTIPLE_DISPLAYS;ENABLE_IL2CPP;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;VUFORIA_IOS_SETTINGS;CROSS_PLATFORM_INPUT;MOBILE_INPUT;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AugmentedScript.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultSmartTerrainEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\GLErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\HideExcessAreaBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ImageTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\AndroidUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\IOSUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Internal\WSAUnityPlayer.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MaskOutBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\MultiTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ObjectTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\PropBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ReconstructionBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\ReconstructionFromTargetBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\SurfaceBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TextRecoBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TurnOffBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\TurnOffWordBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\Utilities\VRIntegrationHelper.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VideoBackgroundBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VirtualButtonBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuMarkBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuforiaBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuforiaConfiguration.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\VuforiaRuntimeInitialization.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WireframeBehaviour.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WireframeTrackableEventHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\WordBehaviour.cs" />
+     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\alienShip\readme.txt" />
+     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
+     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\Flying Disk\readme.txt" />
+     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
+     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="Vuforia.UnityExtensions">
+ <HintPath>/Users/matthew/Desktop/markerlessVuforia copy/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{B1E7404A-04FB-2AE7-7E5B-EC43BABA48B2}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,47 @@
+newmtl material_1
+d 1
+Ns 1
+Ni 0
+Ka 0 1 1
+Kd 0 1 1
+Ks 1 1 1
+Km 0
+
+newmtl material_1_green
+d 1
+Ns 1
+Ni 0
+Ka 0.501961 1 0
+Kd 0.501961 1 0
+Ks 1 1 1
+Km 0
+
+newmtl material_1_red
+d 1
+Ns 1
+Ni 0
+Ka 1 0 0
+Kd 1 0 0
+Ks 1 1 1
+Km 0
+
+newmtl material_1_windows
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+Km 0
+map_Kd /Maps/aca1a.jpg
+
+newmtl default
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 1 1 1
+Km 0
+map_Kd /Maps/kns1a_02.jpg
+
